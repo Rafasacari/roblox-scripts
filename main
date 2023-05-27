@@ -41,6 +41,12 @@ local InputService = game:GetService('UserInputService')
 local RunService = game:GetService('RunService')
 local ContentProvider = game:GetService("ContentProvider")
 
+
+--//*--------- SERVER HOPPER INCLUDE -----------//*
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafasacari/roblox-scripts/main/ServerHopper", true))()
+
+
+
 --//*--------- GLOBAL VARIABLES -----------//*
 local ScriptIsCurrentlyBusy = false
 local Character = nil
